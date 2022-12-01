@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(#009eff, #fb2576);
+}
+*{
+  font-family: 'Merriweather', serif;
+}
+body {
+  margin: 0;
+  /* font-family: 'Merriweather', serif; */
+}
+.calc {
+  width: 24rem;
+  /* margin: auto; */
+}
+.calc_opt {
+  height: 6rem;
+  width: calc(100% - 40px);
+  background-color: #3f3b6c;
+  color: #fff;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  /* text-align: right; */
+  padding: 0 20px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  overflow: hidden;
+}
+.calc_btn_grp {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 4px;
+  /* background-color: blueviolet; */
+  width: 100%;
+}
+.calc_btn_grp button {
+  height: 4rem;
+  background-color: #d6e4e5;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 0;
+}
